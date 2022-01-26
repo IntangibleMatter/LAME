@@ -13,6 +13,10 @@ config_version=4
 config/name="LAME"
 config/icon="res://icon.png"
 
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/LAME/plugin.cfg" )
+
 [physics]
 
 common/enable_pause_aware_picking=true
