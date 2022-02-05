@@ -7,4 +7,5 @@ A Godot plugin for making dynamic music easily
 - Create UI to design music tracks
 - Create Beat Synchronization Mechanism
 - Create LAME Resource
+- make icons
 - *more coming soon*

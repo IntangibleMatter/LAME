@@ -8,10 +8,33 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Control",
+"class": "LameEditor",
+"language": "GDScript",
+"path": "res://addons/LAME/LAMEEditor.gd"
+}, {
+"base": "Resource",
+"class": "LameMusic",
+"language": "GDScript",
+"path": "res://addons/LAME/resources/LameMusic.gd"
+} ]
+_global_script_class_icons={
+"LameEditor": "",
+"LameMusic": ""
+}
+
 [application]
 
 config/name="LAME"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1358
+window/size/height=933
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
 
 [editor_plugins]
 
